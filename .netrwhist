@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/usr/share/screen'
+let g:netrw_dirhist_2='/home/groteck/rails_projects/menu_example'
+let g:netrw_dirhist_3='/etc/bash_completion.d'

@@ -110,19 +110,6 @@ function! Snippet_Underscore(s)
     return substitute(toReturn, '\([A-Z]\)', '\=tolower("_".submatch(1))', 'g')
 endfunction
 
-"ksh {{{1
-function! Snippet_KSHClassNameFromFilename(...)
-    let name = expand("%:t:r:r")
-    if len(name) == 0
-        if a:0 == 0
-            let name = 'MyClass'
-        else
-            let name = a:1
-        endif
-    endif
-    return name
-endfunction
-
 
 " modeline {{{1
 " vim: set fdm=marker:

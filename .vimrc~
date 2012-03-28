@@ -1,0 +1,11 @@
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+au BufNewFile,BufRead *.ksh set filetype=ksh
+map <C-d> :NERDTreeToggle<cr>
+imap jjj <esc> 
+map <F10> :w<cr>
+map <F9> :q!<cr>
+
+set t_Co=256
+colorscheme vividchalk
